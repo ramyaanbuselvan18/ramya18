@@ -1,1 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramya Portfolio</title>
 
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background: #e8d9a8;
+            padding: 30px;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: auto;
+            background: #fff8dc;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .intro {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .photo-card img {
+            width: 180px;
+            height: 230px;
+            object-fit: cover;
+            border-radius: 10px;
+            border: 3px solid #c49a6c;
+        }
+
+        .intro-text h1 {
+            font-size: 36px;
+            color: #7a2c2c;
+        }
+
+        .intro-text h1 span {
+            color: #9c2727;
+            font-weight: bold;
+        }
+
+        .intro-text h2 {
+            color: #333;
+        }
+
+        .intro-text p {
+            margin-top: 10px;
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        section {
+            margin-top: 35px;
+            padding: 20px;
+            background: #fff9e6;
+            border-left: 5px solid #c49a6c;
+            border-radius: 10px;
+        }
+
+        section h2 {
+            font-size: 24px;
+            font-weight: bold;
+            color: #7a2c2c;
+            margin-bottom: 10px;
+        }
+
+        ul li {
+            margin: 5px 0;
+            font-size: 15px;
+        }
+
+        .edu-item {
+            margin-bottom: 15px;
+        }
+
+        .contact p {
+            font-size: 18px;
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            .intro {
+                flex-direction: column;
+                text-align: center;
+            }
+
+            .photo-card img {
+                width: 60%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="container">
+
+    <header class="intro">
+        <div class="photo-card">
+            <img src="your-photo.jpg" alt="Profile Photo">
+        </div>
+
+        <div class="intro-text">
+            <h2>Hello!</h2>
+            <h1>I'm <span>Ramya</span></h1>
+            <p>
+                A passionate and dedicated Information Technology student with a strong
+                interest in Web Development and UI/UX Design. I enjoy building 
+                innovative projects that solve real-world problems.
+            </p>
+        </div>
+    </header>
+
+    <section class="goal">
+        <h2>My Goal</h2>
+        <p>
+            To apply my skills in real-world projects, collaborate with like-minded 
+            individuals, and create innovative solutions that make a difference.
+        </p>
+    </section>
+
+    <section class="experience">
+        <h2>Experience</h2>
+        <ul>
+            <li>Comparison website – project</li>
+            <li>District Explore Website – project</li>
+            <li>Worked using web development tools</li>
+            <li>Improved my skills</li>
+            <li>Developed real-life focused website</li>
+            <li>Skills: HTML, CSS, JavaScript, UI/UX Design</li>
+            <li>Collaborated with a team to build a website</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+
+        <div class="edu-item">
+            <h4>2008 – 2023</h4>
+            <p>Schwartz Matriculation Higher Secondary School, Ramanathapuram</p>
+        </div>
+
+        <div class="edu-item">
+            <h4>2023 – 2027</h4>
+            <p>Coimbatore Institute of Engineering and Technology</p>
+        </div>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>UI/UX Design</li>
+            <li>Digital Drawing</li>
+            <li>Photo Editing</li>
+            <li>Web Development</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <p>📞 +2233445566</p>
+        <p>📧 ramya38@gmail.com</p>
+    </section>
+
+</div>
+
+</body>
+</html>
